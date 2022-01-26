@@ -28,7 +28,8 @@
   color: white;
 }
 .myprofile{
-  padding:40px;
+  padding:auto;
+  margin: 20px auto;
   text-align:center;
 }
 .myprofile .pic{
@@ -158,24 +159,24 @@ i {
   border: 1px solid #222;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
+  .contact {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
   .contact {
     width: 70%;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 992px) {
   .contact {
-    width: 55%;
+    width: 70%;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 1200px) {
   .contact {
-    width: 45%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .contact {
-    width: 35%;
+    width: 70%;
   }
 }
 
